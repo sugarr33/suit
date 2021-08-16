@@ -15,17 +15,17 @@ body {
 }
 
 .parent {
+    margin: 50px 0;
     display: grid;
     /* position: relative; */
-    grid-template-columns: 0.5fr minmax(100px, 1fr) minmax(100px, 1fr) 0.5fr;
-    grid-template-rows: 0.1fr 0.5fr 1fr 0.5fr 0fr ;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    grid-template-columns: 0.5fr minmax(336px, 1fr) minmax(336px, 1fr) 0.5fr;
+    grid-template-rows: 0.5fr 1fr 0fr ;
+    gap: 10px;
 }
 
 .div1 {
     border-radius: 20px;
-    grid-area: 2 / 2 / 3 / 4;
+    grid-area: 1 / 2 / 2 / 4;
     background-color: cadetblue;
     /* padding: 1em; */
     /* place-self: center; */
@@ -42,7 +42,7 @@ body {
 
 .div2 {
     border-radius: 30px;
-    grid-area: 3 / 2 / 3 / 3;
+    grid-area: 2 / 2 / 3 / 3;
     background-color: skyblue;
     font-size: 2rem;
 
@@ -58,14 +58,14 @@ body {
 
 .div4 {
     border-radius: 30px;
-    grid-area: 3 / 3 / 3 / 4;
+    grid-area: 2 / 3 / 3 / 4;
     background-color: deepskyblue;
     font-size: 2rem;
 }
 
 .div5 {
     border-radius: 30px;
-    grid-area: 4 / 2 / 4 / 4;
+    grid-area: 3 / 2 / 4 / 4;
     background-color: slateblue;
     font-size: 2em;
     height: 4em;
